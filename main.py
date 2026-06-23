@@ -37,9 +37,9 @@ def collect():
     # --- 補助金（全国・jGrants API）---
     for item in jgrants.fetch_all(config.JGRANTS_KEYWORDS):
         records.append(jgrants.to_record(item))
-    # --- 案件（Tier1自治体）は今後ここに追加 ---
-    # from scrapers import municipalities
-    # records += municipalities.fetch_tier1()
+    # --- 案件（Tier1自治体・入札公告ページ）---
+    from scrapers import municipalities
+    records += municipalities.fetch_tier1()
     return records
 
 
