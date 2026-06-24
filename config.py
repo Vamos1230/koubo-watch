@@ -30,5 +30,5 @@ CHATWORK_ROOM_ID = os.environ.get("CHATWORK_ROOM_ID", "")
 LINE_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "")
 LINE_TO = os.environ.get("LINE_TO", "")  # 送信先のユーザー/グループID
 
-# 1回の配信で送る最大件数（多すぎる場合の保険）
-MAX_ITEMS_PER_RUN = 40
+# 1回の配信で送る最大件数（文字数は自動分割するので保険的な上限）
+MAX_ITEMS_PER_RUN = 200

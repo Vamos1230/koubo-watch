@@ -125,7 +125,7 @@ tier,type,prefecture,name,bid_page_url,list_format,enabled,notes
 1,city,群馬県,安中市,,none,1,
 1,city,群馬県,みどり市,,none,1,
 1,city,千葉県,銚子市,,none,1,
-1,city,千葉県,市川市,https://www.city.ichikawa.lg.jp/catpage/jigyoumuke-nyusatsu.html,html,1,
+1,city,千葉県,市川市,https://www.city.ichikawa.lg.jp/catpage/jigyoumuke-top.html,html,1,
 1,city,千葉県,船橋市,https://www.city.funabashi.lg.jp/jigyou/nyusatsu/001/index.html,html,1,
 1,city,千葉県,館山市,,none,1,
 1,city,千葉県,木更津市,https://www.city.kisarazu.lg.jp/shigoto_sangyo/nyusatsu_keiyaku_proposal/index.html,html,1,
